@@ -4,7 +4,8 @@
   "description": "",
   "main": "Yeah-Stock.js",
   "scripts": {
-    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
+    "typeorm": "typeorm-ts-node-esm --dataSource src/database/data-source.ts"
   },
   "keywords": [],
   "author": "",
